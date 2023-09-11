@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    margin-top: -10px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(nave.jpg);
+    background-position: center;
+    background-size: cover;
+    position:  relative;
+}
+.na{
+    background-color: rgb(125, 66, 25);
+    height: 15vh;
+   
+}
+
+.na button{
+    background-color: azure;
+}
+.na a{
+    color: black  
+}
+
+
+.na {
+   
+}
+
+.bo h2{
+    padding-top: 100px;
+    color: white;
+    padding-left: 50px;
+}
+
+/* partie exploration */
+
+.ex{
+    display: flex;
+    justify-content: space-around;
+}
+.ex1 img{
+    width: 550px;
+}
