@@ -13,7 +13,7 @@ header {
     position:  relative;
 }
 .na{
-    background-color: rgb(125, 66, 25);
+    background-color: rgb(240, 126, 45);
     height: 15vh;
    
 }
@@ -36,7 +36,51 @@ header {
     padding-left: 50px;
 }
 
+/* belle cité de sya */
+
+.bel{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sya h1{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+
+.cine img{
+    width: 500px;
+}
+.rout img{
+    width: 480px;
+}
+
+.cart img{
+    width: 414px;
+}
+.bel p{
+    padding-top: 20px;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
 /* partie exploration */
+
+.explo{
+    text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-left: 100px;
+padding-right: 100px;
+}
+.explo h1{
+    color: brown ;
+    font-size: 50px;
+}
 
 .ex{
     display: flex;
@@ -45,3 +89,159 @@ header {
 .ex1 img{
     width: 550px;
 }
+.ex1 button{
+    margin-top: 10px;
+    padding: 10px 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+}
+
+
+.ex0 button{
+    padding: 10px 50px;
+    margin-top: 10px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 2px;
+}
+
+
+.sav h1{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.sav h3{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.sav p{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Reserves d'eaux et Animaux */
+
+.reser {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.reser h1{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.res{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.res h2{
+    color: blue;
+}
+
+.res3 img{
+    
+ width: 300px;   
+}
+
+
+.res4 img{
+width: 360px;    
+    
+}
+
+
+.res2 img{
+    
+   width: 350px; 
+}
+
+
+.res1 img{
+   width: 320px; 
+    
+}
+
+/* La Mairie Centrale La Mosquée et les Masques de Dioulassoba */
+
+.mosq{
+  
+  
+   margin: auto;
+   text-align: center;
+   padding-top: 50px;
+}
+
+
+.mosq-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.layer {
+    background: transparent;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: 0.5s;
+ }
+ .layer:hover{
+     background: rgba(96, 54, 54, 0.7);
+ }
+ .layer h3 {
+     width: 100%;
+     font-weight: 500;
+     color: #fff;
+     font-size: 26px;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     position: absolute;
+     opacity: 0;
+     transition: 0.5s;
+ }
+ .layer:hover h3{
+    bottom: 49%; 
+    opacity: 1;
+ }
+
+
+
+
+.mos{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.mos h2{
+    padding-top: 20px;
+}
+
+.mo1 img{
+    width: 420px;
+}
+
+.mo2 img{
+    width: 470px;
+}
+
+
+.mo3 img{
+    width: 400px;
+}
+

@@ -3,7 +3,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid na">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="index.php">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,7 +12,7 @@
        
        
       <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
+          <a class="nav-link" href="affiche.php">Service</a>
         </li>
        
         <li class="nav-item">
